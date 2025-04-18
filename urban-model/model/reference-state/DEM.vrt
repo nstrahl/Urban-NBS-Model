@@ -1,0 +1,24 @@
+<VRTDataset rasterXSize="3552" rasterYSize="5300">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["ETRS89 / UTM zone 33N",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","25833"]]</SRS>
+  <GeoTransform>  4.0323864046603942e+05,  9.9988945999431450e-02,  0.0000000000000000e+00,  5.8020177410744820e+06,  0.0000000000000000e+00, -9.9988945999340911e-02</GeoTransform>
+  <VRTRasterBand dataType="Float64" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">43.297107696533</MDI>
+      <MDI key="STATISTICS_MEAN">40.760469593113</MDI>
+      <MDI key="STATISTICS_MINIMUM">38.903511047363</MDI>
+      <MDI key="STATISTICS_STDDEV">0.95183695450966</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">45.34</MDI>
+    </Metadata>
+    <NoDataValue>-3.40282306073709653e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">DEM_f64_clip.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3552" RasterYSize="5300" DataType="Float64" BlockXSize="3552" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3552" ySize="5300" />
+      <DstRect xOff="0" yOff="0" xSize="3552" ySize="5300" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

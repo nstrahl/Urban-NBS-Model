@@ -1,0 +1,44 @@
+INFO: Starting Mesh creation
+FEEDBACK: Verifying inputs
+INFO: Starting input verification
+FEEDBACK: Discretizing layers
+INFO: input verification finished in: 28 ms
+INFO: Starting layer discretization
+FEEDBACK: Discretizing Layers: clipped
+FEEDBACK: Processing terrain
+INFO: layer discretization finished in: 96 ms
+INFO: Starting terrain processing
+FEEDBACK: Processing planning elements
+INFO: terrain processing finished in: 62 ms
+INFO: Starting planning element processing
+FEEDBACK: Processing planning element: GR0
+FEEDBACK: Processing planning element: GR1
+FEEDBACK: Processing planning element: SW0
+FEEDBACK: Processing planning element: SW1
+FEEDBACK: Preparing mesh surfaces
+INFO: planning element processing finished in: 169 ms
+INFO: Starting mesh surfaces preparation
+FEEDBACK: Computing mesh
+INFO: mesh surfaces preparation finished in: 252 ms
+INFO: Starting mesh computation
+FEEDBACK: Generating boundary conditions file
+INFO: mesh computation finished in: 188 ms
+INFO: Starting boundary conditions file generation
+FEEDBACK: Assigning mesh elevations
+INFO: boundary conditions file generation finished in: 6 ms
+INFO: Starting mesh elevation assignment
+FEEDBACK: Writing mesh elevations
+INFO: mesh elevation assignment finished in: 139 ms
+INFO: Starting mesh elevation writing
+FEEDBACK: Assigning mesh parameters
+INFO: mesh elevation writing finished in: 8 ms
+INFO: Starting mesh parameter assignment: friction
+INFO: Starting Parameter assignment from layer. Mesh dataset: Friction
+INFO: mesh parameter assignment: friction finished in: 16 ms
+INFO: Starting mesh parameter assignment: infiltration
+INFO: Starting Parameter assignment from layer. Mesh dataset: Infiltr
+FEEDBACK: Copying mesh
+INFO: mesh parameter assignment: infiltration finished in: 11 ms
+INFO: Starting mesh copying
+INFO: mesh copying finished in: 2 ms
+INFO: Mesh creation finished in: 3.03 s

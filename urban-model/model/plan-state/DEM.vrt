@@ -1,0 +1,225 @@
+<VRTDataset rasterXSize="3552" rasterYSize="5300">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["ETRS89 / UTM zone 33N",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","25833"]]</SRS>
+  <GeoTransform>  4.0323864046603942e+05,  9.9988945999431450e-02,  0.0000000000000000e+00,  5.8020177410744820e+06,  0.0000000000000000e+00, -9.9988945999340911e-02</GeoTransform>
+  <VRTRasterBand dataType="Float64" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">42.852111816406</MDI>
+      <MDI key="STATISTICS_MEAN">40.769506422984</MDI>
+      <MDI key="STATISTICS_MINIMUM">39.3301</MDI>
+      <MDI key="STATISTICS_STDDEV">0.86515941726031</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">49.34</MDI>
+    </Metadata>
+    <NoDataValue>-3.40282306073709653e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">DEM_f64_clip.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3552" RasterYSize="5300" DataType="Float64" BlockXSize="3552" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3552" ySize="5300" />
+      <DstRect xOff="0" yOff="0" xSize="3552" ySize="5300" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW26.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="123" RasterYSize="192" DataType="Float64" BlockXSize="123" BlockYSize="8" />
+      <SrcRect xOff="0" yOff="0" xSize="123" ySize="192" />
+      <DstRect xOff="1896" yOff="1473" xSize="123" ySize="192" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW27.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="158" ySize="171" />
+      <DstRect xOff="1848" yOff="1647" xSize="158" ySize="171" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW24.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="323" ySize="256" />
+      <DstRect xOff="133" yOff="4618" xSize="323" ySize="256" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW23.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="139" ySize="70" />
+      <DstRect xOff="2174" yOff="1990" xSize="139" ySize="70" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW19.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="41" ySize="46" />
+      <DstRect xOff="2411" yOff="1189" xSize="41" ySize="46" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW17.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="68" ySize="160" />
+      <DstRect xOff="2492" yOff="1414" xSize="68" ySize="160" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW28.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="273" RasterYSize="347" DataType="Float64" BlockXSize="273" BlockYSize="3" />
+      <SrcRect xOff="0" yOff="0" xSize="273" ySize="347" />
+      <DstRect xOff="2317" yOff="2661" xSize="273" ySize="347" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW14.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="111" ySize="303" />
+      <DstRect xOff="2324" yOff="1604" xSize="111" ySize="303" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="88" ySize="145" />
+      <DstRect xOff="1440" yOff="2375" xSize="88" ySize="145" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW21.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="97" ySize="177" />
+      <DstRect xOff="2444" yOff="796" xSize="97" ySize="177" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW25.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="183" ySize="225" />
+      <DstRect xOff="1962" yOff="1263" xSize="183" ySize="225" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="82" ySize="75" />
+      <DstRect xOff="854" yOff="3499" xSize="82" ySize="75" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="31" ySize="39" />
+      <DstRect xOff="2435" yOff="1004" xSize="31" ySize="39" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW9.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="228" ySize="198" />
+      <DstRect xOff="313" yOff="3843" xSize="228" ySize="198" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="45" RasterYSize="99" DataType="Float64" BlockXSize="45" BlockYSize="22" />
+      <SrcRect xOff="0" yOff="0" xSize="45" ySize="99" />
+      <DstRect xOff="1093" yOff="3113" xSize="45" ySize="99" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW15.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="110" ySize="304" />
+      <DstRect xOff="2383" yOff="1613" xSize="110" ySize="304" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW18.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="48" ySize="49" />
+      <DstRect xOff="2445" yOff="1276" xSize="48" ySize="49" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW16.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="55" ySize="162" />
+      <DstRect xOff="2426" yOff="1398" xSize="55" ySize="162" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="223" RasterYSize="195" DataType="Float64" BlockXSize="223" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="223" ySize="195" />
+      <DstRect xOff="543" yOff="3648" xSize="223" ySize="195" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="38" ySize="33" />
+      <DstRect xOff="974" yOff="3435" xSize="38" ySize="33" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW22.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="211" ySize="95" />
+      <DstRect xOff="1881" yOff="2092" xSize="211" ySize="95" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="45" ySize="101" />
+      <DstRect xOff="1030" yOff="3280" xSize="45" ySize="101" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW12.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="98" ySize="357" />
+      <DstRect xOff="2315" yOff="3961" xSize="98" ySize="357" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="82" ySize="137" />
+      <DstRect xOff="1345" yOff="2552" xSize="82" ySize="137" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW13.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="71" ySize="334" />
+      <DstRect xOff="2420" yOff="3517" xSize="71" ySize="334" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="89" ySize="213" />
+      <DstRect xOff="1150" yOff="2851" xSize="89" ySize="213" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="76" ySize="178" />
+      <DstRect xOff="2236" yOff="4421" xSize="76" ySize="178" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">SW11.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="280" RasterYSize="273" DataType="Float64" BlockXSize="280" BlockYSize="3" />
+      <SrcRect xOff="0" yOff="0" xSize="280" ySize="273" />
+      <DstRect xOff="1599" yOff="2499" xSize="280" ySize="273" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

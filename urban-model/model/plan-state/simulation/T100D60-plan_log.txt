@@ -1,0 +1,8 @@
+INFO: Starting Simulation preparation
+FEEDBACK: Assigning boundary conditions
+INFO: Starting boundary condition assignment
+INFO: boundary condition assignment finished in: 5 ms
+FEEDBACK: Collecting case input
+INFO: Starting case input
+FEEDBACK: Creating case file
+INFO: Simulation preparation finished in: 3.35 s

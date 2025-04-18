@@ -1,0 +1,149 @@
+INFO: Starting Mesh creation
+FEEDBACK: Verifying inputs
+INFO: Starting input verification
+FEEDBACK: Discretizing layers
+INFO: input verification finished in: 207 ms
+INFO: Starting layer discretization
+FEEDBACK: Processing terrain
+INFO: layer discretization finished in: 0 ms
+INFO: Starting terrain processing
+FEEDBACK: Processing planning elements
+INFO: terrain processing finished in: 978 ms
+INFO: Starting planning element processing
+FEEDBACK: Processing planning element: GR32
+FEEDBACK: Processing planning element: GR45
+FEEDBACK: Processing planning element: GR53
+FEEDBACK: Processing planning element: GR59
+FEEDBACK: Processing planning element: GR67
+FEEDBACK: Processing planning element: GR22
+FEEDBACK: Processing planning element: GR58
+FEEDBACK: Processing planning element: GR57
+FEEDBACK: Processing planning element: GR23
+FEEDBACK: Processing planning element: GR68
+FEEDBACK: Processing planning element: GR8
+FEEDBACK: Processing planning element: GR56
+FEEDBACK: Processing planning element: GR24
+FEEDBACK: Processing planning element: GR65
+FEEDBACK: Processing planning element: GR21
+FEEDBACK: Processing planning element: GR15
+FEEDBACK: Processing planning element: GR7
+FEEDBACK: Processing planning element: GR25
+FEEDBACK: Processing planning element: GR80
+FEEDBACK: Processing planning element: GR63
+FEEDBACK: Processing planning element: GR64
+FEEDBACK: Processing planning element: GR42
+FEEDBACK: Processing planning element: GR55
+FEEDBACK: Processing planning element: GR34
+FEEDBACK: Processing planning element: GR62
+FEEDBACK: Processing planning element: GR78
+FEEDBACK: Processing planning element: GR33
+FEEDBACK: Processing planning element: GR31
+FEEDBACK: Processing planning element: GR51
+FEEDBACK: Processing planning element: GR39
+FEEDBACK: Processing planning element: GR70
+FEEDBACK: Processing planning element: GR52
+FEEDBACK: Processing planning element: GR6
+FEEDBACK: Processing planning element: GR28
+FEEDBACK: Processing planning element: GR48
+FEEDBACK: Processing planning element: GR44
+FEEDBACK: Processing planning element: GR54
+FEEDBACK: Processing planning element: GR60
+FEEDBACK: Processing planning element: GR35
+FEEDBACK: Processing planning element: GR18
+FEEDBACK: Processing planning element: GR13
+FEEDBACK: Processing planning element: GR11
+FEEDBACK: Processing planning element: GR5
+FEEDBACK: Processing planning element: GR66
+FEEDBACK: Processing planning element: GR20
+FEEDBACK: Processing planning element: GR19
+FEEDBACK: Processing planning element: GR26
+FEEDBACK: Processing planning element: GR37
+FEEDBACK: Processing planning element: GR73
+FEEDBACK: Processing planning element: GR36
+FEEDBACK: Processing planning element: GR75
+FEEDBACK: Processing planning element: GR4
+FEEDBACK: Processing planning element: GR74
+FEEDBACK: Processing planning element: GR81
+FEEDBACK: Processing planning element: GR46
+FEEDBACK: Processing planning element: GR69
+FEEDBACK: Processing planning element: GR2
+FEEDBACK: Processing planning element: GR79
+FEEDBACK: Processing planning element: GR38
+FEEDBACK: Processing planning element: GR61
+FEEDBACK: Processing planning element: GR76
+FEEDBACK: Processing planning element: GR47
+FEEDBACK: Processing planning element: GR29
+FEEDBACK: Processing planning element: GR41
+FEEDBACK: Processing planning element: GR49
+FEEDBACK: Processing planning element: GR16
+FEEDBACK: Processing planning element: GR3
+FEEDBACK: Processing planning element: GR77
+FEEDBACK: Processing planning element: GR43
+FEEDBACK: Processing planning element: GR72
+FEEDBACK: Processing planning element: GR17
+FEEDBACK: Processing planning element: GR40
+FEEDBACK: Processing planning element: GR10
+FEEDBACK: Processing planning element: GR1
+FEEDBACK: Processing planning element: GR9
+FEEDBACK: Processing planning element: GR50
+FEEDBACK: Processing planning element: GR30
+FEEDBACK: Processing planning element: GR27
+FEEDBACK: Processing planning element: GR14
+FEEDBACK: Processing planning element: GR71
+FEEDBACK: Processing planning element: GR12
+FEEDBACK: Processing planning element: SW26
+FEEDBACK: Processing planning element: SW27
+FEEDBACK: Processing planning element: SW24
+FEEDBACK: Processing planning element: SW23
+FEEDBACK: Processing planning element: SW19
+FEEDBACK: Processing planning element: SW17
+FEEDBACK: Processing planning element: SW28
+FEEDBACK: Processing planning element: SW14
+FEEDBACK: Processing planning element: SW2
+FEEDBACK: Processing planning element: SW21
+FEEDBACK: Processing planning element: SW25
+FEEDBACK: Processing planning element: SW7
+FEEDBACK: Processing planning element: SW20
+FEEDBACK: Processing planning element: SW9
+FEEDBACK: Processing planning element: SW3
+FEEDBACK: Processing planning element: SW15
+FEEDBACK: Processing planning element: SW18
+FEEDBACK: Processing planning element: SW16
+FEEDBACK: Processing planning element: SW8
+FEEDBACK: Processing planning element: SW6
+FEEDBACK: Processing planning element: SW22
+FEEDBACK: Processing planning element: SW4
+FEEDBACK: Processing planning element: SW12
+FEEDBACK: Processing planning element: SW1
+FEEDBACK: Processing planning element: SW13
+FEEDBACK: Processing planning element: SW5
+FEEDBACK: Processing planning element: SW10
+FEEDBACK: Processing planning element: SW11
+FEEDBACK: Preparing mesh surfaces
+INFO: planning element processing finished in: 2.57 s
+INFO: Starting mesh surfaces preparation
+FEEDBACK: Computing mesh
+INFO: mesh surfaces preparation finished in: 1.89 s
+INFO: Starting mesh computation
+FEEDBACK: Generating boundary conditions file
+INFO: mesh computation finished in: 4.70 s
+INFO: Starting boundary conditions file generation
+FEEDBACK: Assigning mesh elevations
+INFO: boundary conditions file generation finished in: 4 ms
+INFO: Starting mesh elevation assignment
+FEEDBACK: Writing mesh elevations
+INFO: mesh elevation assignment finished in: 2.92 s
+INFO: Starting mesh elevation writing
+FEEDBACK: Assigning mesh parameters
+INFO: mesh elevation writing finished in: 12 ms
+INFO: Starting mesh parameter assignment: friction
+INFO: Starting Parameter assignment from layer. Mesh dataset: Manning
+INFO: mesh parameter assignment: friction finished in: 119 ms
+INFO: Starting mesh parameter assignment: infiltration
+INFO: Starting Parameter assignment from layer. Mesh dataset: RC
+INFO: Starting Parameter assignment from layer. Mesh dataset: kf
+FEEDBACK: Copying mesh
+INFO: mesh parameter assignment: infiltration finished in: 316 ms
+INFO: Starting mesh copying
+INFO: mesh copying finished in: 2 ms
+INFO: Mesh creation finished in: 15.81 s
