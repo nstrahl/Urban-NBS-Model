@@ -1,6 +1,6 @@
 # Urban-NBS-Model
 
-Research data repository for the research publication (not yet published) titled:
+Research data repository for the research publication titled:
 
 "Streamlining geospatial data processing for pluvial flood modeling
 and mitigation planning in urban environments"
