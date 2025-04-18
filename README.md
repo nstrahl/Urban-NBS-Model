@@ -9,7 +9,7 @@ Authors: Nicholas Ray Bowsher, Heiko Sieker and Reinhard Hinkelmann
 
 ## Instructions
 
-Spatial data can be viewed opened using [QGIS]([Spatial without Compromise · QGIS Web Site](https://qgis.org/)).
+Spatial data can be viewed using [QGIS](https://qgis.org/).
 
 Two QGIS projects are made available in this repository: minimal-example.qgz and urban-model.qgz
 
