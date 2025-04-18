@@ -1,0 +1,1 @@
+The DEM.tif in the current directory was derived from https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_dgm/0 data that follows the Deutschland - Zero - Version 2.0 licese (https://www.govdata.de/dl-de/zero-2-0).
